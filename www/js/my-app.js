@@ -26,7 +26,7 @@ $$(document).on('pageInit', '.page[data-page="compass"]', function (e) {
     }
     function onSuccess(heading) {
         var img = document.getElementById('compass');
-        img.setAttribute('style','transform:rotate('+ heading.magneticHeading + 'deg)');
+        img.setAttribute('style','transform:rotate(-'+ heading.magneticHeading + 'deg)');
     };
 });
 
