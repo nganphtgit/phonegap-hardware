@@ -22,11 +22,9 @@ $$(document).on('pageInit', '.page[data-page="result"]', function (e) {
 $$(document).on('pageInit', '.page[data-page="compass"]', function (e) {
     document.addEventListener("deviceready", onDeviceReady, false);
     function onDeviceReady() {
-        alert(navigator.compass);
-        var watchID = navigator.compass.getCurrentHeading(onSuccess, onError, options);    
+        var watchID = navigator.compass.watchHeading(onSuccess, onError, options);    
     }
     function onSuccess(heading) {
-        alert("abc");
         var img = document.getElementById('compass');
         img.setAttribute('style','transform:rotate('+ heading.magneticHeading + 'deg)');
     };
