@@ -38,5 +38,29 @@
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "cordova-plugin-device-motion": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/apache/cordova-plugin-device-motion"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-network-information": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/apache/cordova-plugin-network-information"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-battery-status": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/apache/cordova-plugin-battery-status.git"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }

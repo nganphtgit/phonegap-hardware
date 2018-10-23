@@ -21,6 +21,15 @@
     },
     "cordova-plugin-device-orientation": {
       "PACKAGE_NAME": "com.julie.hardware"
+    },
+    "cordova-plugin-device-motion": {
+      "PACKAGE_NAME": "com.julie.hardware"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.julie.hardware"
+    },
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "com.julie.hardware"
     }
   },
   "dependent_plugins": {}
